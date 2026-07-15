@@ -25,3 +25,35 @@ export const NAV_LINKS = [
   { href: '/about', label: 'درباره ما' },
   { href: '/contact', label: 'تماس با ما' },
 ] as const
+
+/** Lowercase alias kept for ergonomic imports across pages. */
+export const site = SITE
+
+/**
+ * Builds a consistent per-page Metadata object: title, description,
+ * canonical URL, and OpenGraph — so every page stays SEO-coherent.
+ */
+export function buildMetadata({
+  title,
+  description,
+  path = '/',
+}: {
+  title: string
+  description: string
+  path?: string
+}) {
+  const url = path === '/' ? SITE.url : `${SITE.url}${path}`
+  return {
+    title,
+    description,
+    alternates: { canonical: path },
+    openGraph: {
+      type: 'website' as const,
+      locale: 'fa_IR',
+      siteName: SITE.name,
+      url,
+      title: `${title} | ${SITE.name}`,
+      description,
+    },
+  }
+}

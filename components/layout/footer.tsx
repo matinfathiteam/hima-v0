@@ -1,6 +1,7 @@
 import Link from 'next/link'
-import { Sparkles, Mail, Phone, MapPin, Instagram, Linkedin, Send } from 'lucide-react'
+import { Sparkles, Mail, Phone, MapPin, Send } from 'lucide-react'
 import { Container } from '@/components/shared/container'
+import { InstagramIcon, LinkedinIcon } from '@/components/shared/social-icons'
 import { SITE } from '@/lib/site'
 import { services, niches } from '@/lib/data'
 
@@ -34,7 +35,7 @@ const columns = [
     title: 'ابزارها',
     links: [
       { href: '/calculator', label: 'ماشین‌حساب قیمت' },
-      { href: '/templates', label: 'قالب‌های آماده' },
+      { href: '/services/template', label: 'ساخت پیش‌نمایش قالب' },
       { href: '/compare', label: 'مقایسه با رقبا' },
       { href: '/free-audit', label: 'آنالیز رایگان سایت' },
       { href: '/faq', label: 'سوالات متداول' },
@@ -64,14 +65,14 @@ export function Footer() {
                 aria-label="اینستاگرام"
                 className="flex size-9 items-center justify-center rounded-lg bg-muted text-muted-foreground transition-colors hover:bg-primary hover:text-primary-foreground"
               >
-                <Instagram className="size-4" />
+                <InstagramIcon className="size-4" />
               </a>
               <a
                 href={SITE.social.linkedin}
                 aria-label="لینکدین"
                 className="flex size-9 items-center justify-center rounded-lg bg-muted text-muted-foreground transition-colors hover:bg-primary hover:text-primary-foreground"
               >
-                <Linkedin className="size-4" />
+                <LinkedinIcon className="size-4" />
               </a>
               <a
                 href={SITE.social.telegram}
@@ -128,7 +129,7 @@ export function Footer() {
             © {new Date().getFullYear()} {SITE.legalName}. تمامی حقوق محفوظ است.
           </p>
           <div className="flex items-center gap-4">
-            <Link href="/privacy" className="hover:text-foreground">
+            <Link href="/privacy-policy" className="hover:text-foreground">
               حریم خصوصی
             </Link>
             <Link href="/terms" className="hover:text-foreground">

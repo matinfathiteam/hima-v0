@@ -30,18 +30,26 @@ export default function OrderThankYouPage() {
             روز کاری برای مشاوره‌ی رایگان با شما تماس می‌گیرند.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
-            <Button asChild size="lg" className="bg-brand-gradient text-primary-foreground">
-              <Link href="/">
-                <Home className="size-4" />
-                بازگشت به خانه
-              </Link>
-            </Button>
-            <Button asChild size="lg" variant="outline">
-              <a href={`tel:${site.phone}`}>
-                <Phone className="size-4" />
-                تماس با ما
-              </a>
-            </Button>
+            <Button
+              size="lg"
+              className="bg-brand-gradient text-primary-foreground"
+              render={
+                <Link href="/">
+                  <Home className="size-4" />
+                  بازگشت به خانه
+                </Link>
+              }
+            />
+            <Button
+              size="lg"
+              variant="outline"
+              render={
+                <a href={`tel:${site.phoneHref}`}>
+                  <Phone className="size-4" />
+                  تماس با ما
+                </a>
+              }
+            />
           </div>
         </div>
       </Container>
