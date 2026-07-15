@@ -1,0 +1,249 @@
+[
+  {
+    "slug": "digikala-style-shop",
+    "title": "فروشگاه اینترنتی لوازم دیجیتال",
+    "client": "تک‌مارت",
+    "category": "web-design",
+    "categoryLabel": "فروشگاهی",
+    "niche": "online-store",
+    "serviceSlug": "ecommerce-development",
+    "cover": "/images/projects/tech-shop.png",
+    "liveUrl": "https://example.com",
+    "videoId": "",
+    "summary": "بازطراحی کامل فروشگاه لوازم دیجیتال با تمرکز بر سرعت و نرخ تبدیل.",
+    "outcome": "افزایش ۴۲٪ نرخ تبدیل در سه ماه اول",
+    "challenge": "فروشگاه قبلی کند بود، مسیر خرید پیچیده داشت و نرخ رها شدن سبد خرید بالای ۷۰٪ بود. مشتری روی موبایل به‌سختی خرید را کامل می‌کرد.",
+    "solution": "مسیر خرید را از نو طراحی کردیم، سرعت را با Next.js به زیر ۲ ثانیه رساندیم و فرایند پرداخت را به دو مرحله کاهش دادیم. جست‌وجوی هوشمند محصول اضافه شد.",
+    "gallery": ["/images/projects/tech-shop.png", "/images/projects/tech-shop-2.png"],
+    "techStack": ["Next.js", "TypeScript", "Tailwind CSS"],
+    "metrics": [
+      { "label": "افزایش نرخ تبدیل", "value": "۴۲٪" },
+      { "label": "کاهش زمان بارگذاری", "value": "۶۸٪" },
+      { "label": "افزایش فروش موبایل", "value": "۲.۳ برابر" }
+    ],
+    "testimonial": {
+      "quote": "بعد از بازطراحی سایت، فروش موبایلی ما بیش از دو برابر شد. تیم هیما واقعاً همسفر ما بود.",
+      "name": "امیر رضایی",
+      "role": "مدیر فروش تک‌مارت"
+    },
+    "featured": true
+  },
+  {
+    "slug": "organic-food-market",
+    "title": "فروشگاه محصولات ارگانیک",
+    "client": "سبزینه",
+    "category": "web-design",
+    "categoryLabel": "فروشگاهی",
+    "niche": "online-store",
+    "serviceSlug": "ecommerce-development",
+    "cover": "/images/projects/organic-market.png",
+    "liveUrl": "https://example.com",
+    "videoId": "",
+    "summary": "فروشگاه آنلاین محصولات ارگانیک با تجربه‌ی خرید ساده و دلنشین.",
+    "outcome": "رشد ۳.۱ برابری سفارش‌های ماهانه",
+    "challenge": "برند نوپا بدون حضور آنلاین بود و مشتریان فقط حضوری خرید می‌کردند.",
+    "solution": "فروشگاه سریع با هویت بصری تازه و اشتراک ماهانه‌ی محصولات ساختیم.",
+    "gallery": ["/images/projects/organic-market.png"],
+    "techStack": ["Next.js", "TypeScript"],
+    "metrics": [
+      { "label": "رشد سفارش ماهانه", "value": "۳.۱ برابر" },
+      { "label": "مشتری بازگشتی", "value": "۵۵٪" }
+    ],
+    "testimonial": {
+      "quote": "از صفر به یک فروشگاه پرفروش رسیدیم. پشتیبانی بعد از تحویل فوق‌العاده بود.",
+      "name": "مریم کریمی",
+      "role": "بنیان‌گذار سبزینه"
+    },
+    "featured": true
+  },
+  {
+    "slug": "modern-art-gallery",
+    "title": "گالری هنر معاصر",
+    "client": "گالری آرتین",
+    "category": "web-design",
+    "categoryLabel": "گالری هنری",
+    "niche": "art-gallery",
+    "serviceSlug": "web-design",
+    "cover": "/images/projects/art-gallery.png",
+    "liveUrl": "https://example.com",
+    "videoId": "",
+    "summary": "وب‌سایت مینیمال و لوکس برای نمایش و فروش آثار هنری.",
+    "outcome": "۲۸ فروش آنلاین اثر در دو ماه نخست",
+    "challenge": "آثار ارزشمند در یک سایت قدیمی و بی‌کیفیت نمایش داده می‌شدند.",
+    "solution": "طراحی مینیمال با نمایش تصاویر با کیفیت بالا و امکان خرید و استعلام آنلاین.",
+    "gallery": ["/images/projects/art-gallery.png"],
+    "techStack": ["Next.js", "Tailwind CSS"],
+    "metrics": [
+      { "label": "فروش آنلاین اثر", "value": "۲۸ اثر" },
+      { "label": "افزایش بازدید", "value": "۱۹۰٪" }
+    ],
+    "testimonial": {
+      "quote": "سایت دقیقاً حس فضای گالری ما را منتقل می‌کند. بازخوردها عالی بوده.",
+      "name": "سهراب احمدی",
+      "role": "مدیر گالری آرتین"
+    },
+    "featured": true
+  },
+  {
+    "slug": "photographer-portfolio",
+    "title": "پرتفولیوی عکاس حرفه‌ای",
+    "client": "استودیو لنز",
+    "category": "web-design",
+    "categoryLabel": "پرتفولیو",
+    "niche": "portfolio",
+    "serviceSlug": "web-design",
+    "cover": "/images/projects/portfolio.png",
+    "liveUrl": "https://example.com",
+    "videoId": "",
+    "summary": "پرتفولیوی روایت‌محور برای یک عکاس تبلیغاتی.",
+    "outcome": "افزایش ۶۰٪ درخواست همکاری",
+    "challenge": "نمونه‌کارها در اینستاگرام پراکنده و بدون روایت بودند.",
+    "solution": "سایت پرتفولیوی سریع با چیدمان روایت‌محور و مسیر تماس واضح.",
+    "gallery": ["/images/projects/portfolio.png"],
+    "techStack": ["Next.js", "Tailwind CSS"],
+    "metrics": [
+      { "label": "افزایش درخواست همکاری", "value": "۶۰٪" }
+    ],
+    "featured": false
+  },
+  {
+    "slug": "online-academy",
+    "title": "آکادمی آموزش آنلاین",
+    "client": "دانش‌پلاس",
+    "category": "web-design",
+    "categoryLabel": "آموزشی",
+    "niche": "lms",
+    "serviceSlug": "web-design",
+    "cover": "/images/projects/academy.png",
+    "liveUrl": "https://example.com",
+    "videoId": "",
+    "summary": "پلتفرم فروش و ارائه‌ی دوره‌های آموزشی ویدیویی.",
+    "outcome": "فروش ۱۲۰۰ دوره در سه ماه",
+    "challenge": "مدرس محتوای عالی داشت اما بستری برای فروش امن نداشت.",
+    "solution": "پلتفرم LMS با پخش امن ویدیو، پرداخت و پنل دانشجو.",
+    "gallery": ["/images/projects/academy.png"],
+    "techStack": ["Next.js", "TypeScript"],
+    "metrics": [
+      { "label": "فروش دوره", "value": "۱۲۰۰+" },
+      { "label": "نرخ تکمیل دوره", "value": "۷۳٪" }
+    ],
+    "testimonial": {
+      "quote": "بالاخره یک پلتفرم که خودم می‌توانم مدیریتش کنم و امن است.",
+      "name": "دکتر نازنین موسوی",
+      "role": "بنیان‌گذار دانش‌پلاس"
+    },
+    "featured": true
+  },
+  {
+    "slug": "tech-conference",
+    "title": "سایت همایش فناوری",
+    "client": "رویداد نکست",
+    "category": "web-design",
+    "categoryLabel": "رویداد",
+    "niche": "event-management",
+    "serviceSlug": "web-design",
+    "cover": "/images/projects/conference.png",
+    "liveUrl": "https://example.com",
+    "videoId": "",
+    "summary": "سایت ثبت‌نام و فروش بلیت یک همایش فناوری.",
+    "outcome": "فروش کامل ۸۰۰ بلیت در ۱۰ روز",
+    "challenge": "ثبت‌نام دستی و پرخطا بود و ظرفیت مدیریت نمی‌شد.",
+    "solution": "سیستم فروش بلیت با درگاه پرداخت و صدور بلیت QR.",
+    "gallery": ["/images/projects/conference.png"],
+    "techStack": ["Next.js"],
+    "metrics": [
+      { "label": "فروش بلیت", "value": "۸۰۰ بلیت" },
+      { "label": "زمان فروش کامل", "value": "۱۰ روز" }
+    ],
+    "featured": false
+  },
+  {
+    "slug": "fitness-club",
+    "title": "باشگاه بدن‌سازی مدرن",
+    "client": "باشگاه آیرون",
+    "category": "web-design",
+    "categoryLabel": "ورزشی",
+    "niche": "sports-club",
+    "serviceSlug": "web-design",
+    "cover": "/images/projects/fitness.png",
+    "liveUrl": "https://example.com",
+    "videoId": "",
+    "summary": "سایت عضوگیری و رزرو کلاس برای یک باشگاه ورزشی.",
+    "outcome": "افزایش ۸۵٪ ثبت‌نام آنلاین",
+    "challenge": "عضوگیری تلفنی بود و ظرفیت کلاس‌ها مدیریت نمی‌شد.",
+    "solution": "سیستم رزرو آنلاین سانس و پرداخت اشتراک.",
+    "gallery": ["/images/projects/fitness.png"],
+    "techStack": ["Next.js", "Tailwind CSS"],
+    "metrics": [
+      { "label": "افزایش ثبت‌نام آنلاین", "value": "۸۵٪" }
+    ],
+    "featured": false
+  },
+  {
+    "slug": "dental-clinic",
+    "title": "کلینیک دندان‌پزشکی",
+    "client": "کلینیک لبخند",
+    "category": "web-design",
+    "categoryLabel": "پزشکی",
+    "niche": "medical-clinic",
+    "serviceSlug": "web-design",
+    "cover": "/images/projects/clinic.png",
+    "liveUrl": "https://example.com",
+    "videoId": "",
+    "summary": "سایت اعتمادساز با نوبت‌دهی آنلاین برای یک کلینیک دندان‌پزشکی.",
+    "outcome": "افزایش ۵۰٪ نوبت‌های آنلاین",
+    "challenge": "نوبت‌دهی تلفنی شلوغ بود و اعتماد بیمار پیش از مراجعه شکل نمی‌گرفت.",
+    "solution": "طراحی حرفه‌ای با سیستم نوبت‌دهی آنلاین و معرفی پزشکان.",
+    "gallery": ["/images/projects/clinic.png"],
+    "techStack": ["Next.js"],
+    "metrics": [
+      { "label": "افزایش نوبت آنلاین", "value": "۵۰٪" },
+      { "label": "کاهش تماس تلفنی", "value": "۴۰٪" }
+    ],
+    "featured": false
+  },
+  {
+    "slug": "specialty-cafe",
+    "title": "کافه تخصصی قهوه",
+    "client": "کافه رست",
+    "category": "web-design",
+    "categoryLabel": "رستوران/کافه",
+    "niche": "restaurant-cafe",
+    "serviceSlug": "web-design",
+    "cover": "/images/projects/cafe.png",
+    "liveUrl": "https://example.com",
+    "videoId": "",
+    "summary": "سایت منوی دیجیتال و رزرو میز برای یک کافه تخصصی.",
+    "outcome": "افزایش ۳۵٪ رزرو میز",
+    "challenge": "منو به‌روز نبود و رزرو تلفنی دردسرساز بود.",
+    "solution": "منوی دیجیتال جذاب با عکاسی حرفه‌ای و رزرو آنلاین میز.",
+    "gallery": ["/images/projects/cafe.png"],
+    "techStack": ["Next.js", "Tailwind CSS"],
+    "metrics": [
+      { "label": "افزایش رزرو میز", "value": "۳۵٪" }
+    ],
+    "featured": false
+  },
+  {
+    "slug": "corporate-branding",
+    "title": "برندینگ شرکت مشاوره",
+    "client": "مشاوران آوا",
+    "category": "branding",
+    "categoryLabel": "برندینگ",
+    "niche": "portfolio",
+    "serviceSlug": "branding",
+    "cover": "/images/projects/branding.png",
+    "liveUrl": "",
+    "videoId": "",
+    "summary": "طراحی هویت بصری کامل برای یک شرکت مشاوره‌ی مدیریت.",
+    "outcome": "افزایش ۴۵٪ نرخ به‌یادماندنی برند",
+    "challenge": "برند هویت منسجمی نداشت و در نقاط تماس مختلف متفاوت دیده می‌شد.",
+    "solution": "سیستم هویت بصری کامل با لوگو، پالت رنگی و راهنمای برند.",
+    "gallery": ["/images/projects/branding.png"],
+    "techStack": ["Figma", "Illustrator"],
+    "metrics": [
+      { "label": "افزایش به‌یادماندنی برند", "value": "۴۵٪" }
+    ],
+    "featured": false
+  }
+]

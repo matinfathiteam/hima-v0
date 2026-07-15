@@ -1,0 +1,68 @@
+[
+  {
+    "id": "t1",
+    "quote": "تیم هیما فقط یک سایت به ما نداد؛ یک شریک شد که هنوز هم کنار ماست. فروش موبایلی‌مان دو برابر شد.",
+    "name": "امیر رضایی",
+    "role": "مدیر فروش",
+    "company": "تک‌مارت",
+    "avatar": "/images/avatars/avatar-1.png",
+    "industry": "online-store",
+    "industryLabel": "فروشگاهی",
+    "result": "۲.۳ برابر فروش موبایل"
+  },
+  {
+    "id": "t2",
+    "quote": "از صفر شروع کردیم و حالا یک فروشگاه پرفروش داریم. مهم‌تر از همه، همیشه پشتیبان ما بوده‌اند.",
+    "name": "مریم کریمی",
+    "role": "بنیان‌گذار",
+    "company": "سبزینه",
+    "avatar": "/images/avatars/avatar-2.png",
+    "industry": "online-store",
+    "industryLabel": "فروشگاهی",
+    "result": "۳.۱ برابر سفارش ماهانه"
+  },
+  {
+    "id": "t3",
+    "quote": "سایت دقیقاً حس فضای گالری ما را منتقل می‌کند. طراحی مینیمال و باکلاس بود.",
+    "name": "سهراب احمدی",
+    "role": "مدیر گالری",
+    "company": "گالری آرتین",
+    "avatar": "/images/avatars/avatar-3.png",
+    "industry": "art-gallery",
+    "industryLabel": "گالری هنری",
+    "result": "۲۸ فروش آنلاین اثر"
+  },
+  {
+    "id": "t4",
+    "quote": "بالاخره یک پلتفرم آموزشی که خودم مدیریتش می‌کنم و امن است. سرعت سایت واقعاً عالی است.",
+    "name": "دکتر نازنین موسوی",
+    "role": "بنیان‌گذار",
+    "company": "دانش‌پلاس",
+    "avatar": "/images/avatars/avatar-4.png",
+    "industry": "lms",
+    "industryLabel": "آموزشی",
+    "result": "۱۲۰۰+ فروش دوره"
+  },
+  {
+    "id": "t5",
+    "quote": "نوبت‌دهی آنلاین، حجم تماس‌های تلفنی منشی ما را نصف کرد. بیماران هم راضی‌ترند.",
+    "name": "دکتر پیمان صادقی",
+    "role": "مدیر کلینیک",
+    "company": "کلینیک لبخند",
+    "avatar": "/images/avatars/avatar-5.png",
+    "industry": "medical-clinic",
+    "industryLabel": "پزشکی",
+    "result": "۴۰٪ کاهش تماس تلفنی"
+  },
+  {
+    "id": "t6",
+    "quote": "منوی دیجیتال و رزرو آنلاین، تجربه‌ی مشتری‌های ما را کاملاً عوض کرد. عکاسی‌شان هم حرفه‌ای بود.",
+    "name": "نیلوفر حسینی",
+    "role": "مدیر",
+    "company": "کافه رست",
+    "avatar": "/images/avatars/avatar-6.png",
+    "industry": "restaurant-cafe",
+    "industryLabel": "رستوران/کافه",
+    "result": "۳۵٪ افزایش رزرو میز"
+  }
+]
