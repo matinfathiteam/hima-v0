@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation'
 import { Menu, X, Sparkles } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Container } from '@/components/shared/container'
+import { ThemeToggle } from '@/components/layout/theme-toggle'
 import { NAV_LINKS, SITE } from '@/lib/site'
 import { cn } from '@/lib/utils'
 
@@ -66,6 +67,7 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-2 lg:flex">
+          <ThemeToggle />
           <Button
             variant="outline"
             size="lg"
@@ -78,15 +80,18 @@ export function Header() {
           />
         </div>
 
-        <button
-          type="button"
-          className="inline-flex size-10 items-center justify-center rounded-lg text-foreground lg:hidden"
-          onClick={() => setOpen((v) => !v)}
-          aria-label={open ? 'بستن منو' : 'باز کردن منو'}
-          aria-expanded={open}
-        >
-          {open ? <X className="size-6" /> : <Menu className="size-6" />}
-        </button>
+        <div className="flex items-center gap-2 lg:hidden">
+          <ThemeToggle />
+          <button
+            type="button"
+            className="inline-flex size-10 items-center justify-center rounded-lg text-foreground"
+            onClick={() => setOpen((v) => !v)}
+            aria-label={open ? 'بستن منو' : 'باز کردن منو'}
+            aria-expanded={open}
+          >
+            {open ? <X className="size-6" /> : <Menu className="size-6" />}
+          </button>
+        </div>
       </Container>
 
       {open ? (

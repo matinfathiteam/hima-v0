@@ -70,6 +70,40 @@
   --ring: oklch(0.52 0.24 300);
 }
 
+.dark {
+  color-scheme: dark;
+
+  /* Neutrals */
+  --background: oklch(0.17 0.02 300);
+  --foreground: oklch(0.95 0.01 320);
+  --card: oklch(0.21 0.025 300);
+  --card-foreground: oklch(0.95 0.01 320);
+  --popover: oklch(0.21 0.025 300);
+  --popover-foreground: oklch(0.95 0.01 320);
+
+  /* Brand purple (brighter for dark bg) */
+  --primary: oklch(0.68 0.2 300);
+  --primary-foreground: oklch(0.16 0.02 300);
+
+  /* Soft purple secondary */
+  --secondary: oklch(0.28 0.04 300);
+  --secondary-foreground: oklch(0.92 0.03 315);
+
+  --muted: oklch(0.26 0.03 300);
+  --muted-foreground: oklch(0.7 0.03 310);
+
+  /* Pink accent */
+  --accent: oklch(0.72 0.18 350);
+  --accent-foreground: oklch(0.16 0.02 300);
+
+  --destructive: oklch(0.62 0.2 25);
+  --destructive-foreground: oklch(0.98 0 0);
+
+  --border: oklch(0.3 0.03 300);
+  --input: oklch(0.32 0.03 300);
+  --ring: oklch(0.68 0.2 300);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

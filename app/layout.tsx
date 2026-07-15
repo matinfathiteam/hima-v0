@@ -4,6 +4,7 @@ import { Vazirmatn } from 'next/font/google'
 import { JetBrains_Mono } from 'next/font/google'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
+import { ThemeProvider } from '@/components/layout/theme-provider'
 import { FloatingGoftinoButton } from '@/components/layout/floating-goftino-button'
 import { SITE } from '@/lib/site'
 import './globals.css'
@@ -51,8 +52,11 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  themeColor: '#7c2fd6',
-  colorScheme: 'light',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#7c2fd6' },
+    { media: '(prefers-color-scheme: dark)', color: '#2a1840' },
+  ],
+  colorScheme: 'light dark',
   width: 'device-width',
   initialScale: 1,
 }
@@ -61,13 +65,25 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="fa" dir="rtl" className={`${vazir.variable} ${mono.variable}`}>
+    <html
+      lang="fa"
+      dir="rtl"
+      className={`${vazir.variable} ${mono.variable}`}
+      suppressHydrationWarning
+    >
       <body className="font-sans">
-        <Header />
-        <main id="main">{children}</main>
-        <Footer />
-        <FloatingGoftinoButton />
-        {process.env.NODE_ENV === 'production' && <Analytics />}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Header />
+          <main id="main">{children}</main>
+          <Footer />
+          <FloatingGoftinoButton />
+          {process.env.NODE_ENV === 'production' && <Analytics />}
+        </ThemeProvider>
       </body>
     </html>
   )
