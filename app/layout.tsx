@@ -1,22 +1,43 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Vazirmatn } from 'next/font/google'
-import { JetBrains_Mono } from 'next/font/google'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
 import { ThemeProvider } from '@/components/layout/theme-provider'
 import { FloatingGoftinoButton } from '@/components/layout/floating-goftino-button'
 import { SITE } from '@/lib/site'
 import './globals.css'
+import localFont from 'next/font/local'
 
-const vazir = Vazirmatn({
-  subsets: ['arabic', 'latin'],
+const vazir = localFont({
+  src: [
+    {
+      path: '../fonts/Vazirmatn-Regular.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../fonts/Vazirmatn-Bold.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
   display: 'swap',
   variable: '--font-vazir',
 })
 
-const mono = JetBrains_Mono({
-  subsets: ['latin'],
+const mono = localFont({
+  src: [
+    {
+      path: '../fonts/JetBrainsMono-Regular.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../fonts/JetBrainsMono-Bold.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
   display: 'swap',
   variable: '--font-latin-mono',
 })
